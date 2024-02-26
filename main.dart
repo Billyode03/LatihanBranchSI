@@ -9,4 +9,5 @@ void main() {
   int tahunNow = int.parse(stdin.readLineSync()!);
 
   int umurSaya = tahunNow - tahunLahir;
+  print('Umur anda adalah $umurSaya');
 }
