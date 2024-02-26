@@ -5,5 +5,8 @@ void main() {
   print('PROGRAM HITUNG UMUR SEKARANG');
   print('Masukkan Tahun Lahir Anda : ');
   int tahunLahir = int.parse(stdin.readLineSync()!);
-  
+  print("Masukkan Tahun saat ini : ");
+  int tahunNow = int.parse(stdin.readLineSync()!);
+
+  int umurSaya = tahunNow - tahunLahir;
 }
